@@ -14,13 +14,13 @@
 		DC167E7924DA908C00359659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167E7824DA908C00359659 /* main.m */; };
 		DC167E8424DA915500359659 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167E8224DA915500359659 /* HomeViewController.m */; };
 		DC167E8524DA915500359659 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC167E8324DA915500359659 /* HomeViewController.xib */; };
-		DC167EF824DA9DEB00359659 /* GaoDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167EF024DA9DEB00359659 /* GaoDisplayManager.m */; };
-		DC167EF924DA9DEB00359659 /* GaoToastViewIl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC167EF524DA9DEB00359659 /* GaoToastViewIl.xib */; };
-		DC167EFA24DA9DEB00359659 /* GaoToastViewIl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167EF624DA9DEB00359659 /* GaoToastViewIl.m */; };
-		DC167EFB24DA9DEB00359659 /* warn.png in Resources */ = {isa = PBXBuildFile; fileRef = DC167EF724DA9DEB00359659 /* warn.png */; };
+		DC826775251D935F00BB1008 /* GaoDisplayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82676B251D935F00BB1008 /* GaoDisplayStyle.m */; };
+		DC826776251D935F00BB1008 /* GaoDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82676D251D935F00BB1008 /* GaoDisplayManager.m */; };
+		DC826777251D935F00BB1008 /* GaoToastViewIl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC826772251D935F00BB1008 /* GaoToastViewIl.xib */; };
+		DC826778251D935F00BB1008 /* GaoToastViewIl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC826773251D935F00BB1008 /* GaoToastViewIl.m */; };
+		DC826779251D935F00BB1008 /* warn.png in Resources */ = {isa = PBXBuildFile; fileRef = DC826774251D935F00BB1008 /* warn.png */; };
 		DC8EDE97251C273000D385C5 /* GaoTvcLl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EDE94251C273000D385C5 /* GaoTvcLl.m */; };
 		DC8EDE98251C273000D385C5 /* GaoTvcLl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8EDE95251C273000D385C5 /* GaoTvcLl.xib */; };
-		DC8EDE9E251C277500D385C5 /* GaoDisplayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EDE9C251C277500D385C5 /* GaoDisplayStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,20 +36,20 @@
 		DC167E8124DA915500359659 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DC167E8224DA915500359659 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DC167E8324DA915500359659 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		DC167EF024DA9DEB00359659 /* GaoDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDisplayManager.m; sourceTree = "<group>"; };
-		DC167EF124DA9DEB00359659 /* GaoDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDisplayManager.h; sourceTree = "<group>"; };
-		DC167EF424DA9DEB00359659 /* GaoToastViewIl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoToastViewIl.h; sourceTree = "<group>"; };
-		DC167EF524DA9DEB00359659 /* GaoToastViewIl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoToastViewIl.xib; sourceTree = "<group>"; };
-		DC167EF624DA9DEB00359659 /* GaoToastViewIl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoToastViewIl.m; sourceTree = "<group>"; };
-		DC167EF724DA9DEB00359659 /* warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warn.png; sourceTree = "<group>"; };
 		DC826764251D902800BB1008 /* Versions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Versions.md; sourceTree = "<group>"; };
 		DC826765251D902800BB1008 /* LICENSE-MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = "LICENSE-MIT"; sourceTree = "<group>"; };
 		DC826766251D902800BB1008 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC82676B251D935F00BB1008 /* GaoDisplayStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDisplayStyle.m; sourceTree = "<group>"; };
+		DC82676C251D935F00BB1008 /* GaoDisplayStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDisplayStyle.h; sourceTree = "<group>"; };
+		DC82676D251D935F00BB1008 /* GaoDisplayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDisplayManager.m; sourceTree = "<group>"; };
+		DC82676E251D935F00BB1008 /* GaoDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDisplayManager.h; sourceTree = "<group>"; };
+		DC826771251D935F00BB1008 /* GaoToastViewIl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoToastViewIl.h; sourceTree = "<group>"; };
+		DC826772251D935F00BB1008 /* GaoToastViewIl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoToastViewIl.xib; sourceTree = "<group>"; };
+		DC826773251D935F00BB1008 /* GaoToastViewIl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoToastViewIl.m; sourceTree = "<group>"; };
+		DC826774251D935F00BB1008 /* warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warn.png; sourceTree = "<group>"; };
 		DC8EDE94251C273000D385C5 /* GaoTvcLl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoTvcLl.m; sourceTree = "<group>"; };
 		DC8EDE95251C273000D385C5 /* GaoTvcLl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoTvcLl.xib; sourceTree = "<group>"; };
 		DC8EDE96251C273000D385C5 /* GaoTvcLl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoTvcLl.h; sourceTree = "<group>"; };
-		DC8EDE9C251C277500D385C5 /* GaoDisplayStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoDisplayStyle.m; sourceTree = "<group>"; };
-		DC8EDE9D251C277500D385C5 /* GaoDisplayStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoDisplayStyle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		DC167E5A24DA908C00359659 = {
 			isa = PBXGroup;
 			children = (
+				DC826767251D935F00BB1008 /* GaoDisplayManager */,
 				DC167E6524DA908C00359659 /* GaoDisplayManagerDemo */,
 				DC826763251D902800BB1008 /* Info */,
 				DC826765251D902800BB1008 /* LICENSE-MIT */,
@@ -85,7 +86,6 @@
 		DC167E6524DA908C00359659 /* GaoDisplayManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DC167EED24DA9DEB00359659 /* GaoDisplayManager */,
 				DC167EDE24DA9BA800359659 /* Utility */,
 				DC167E7F24DA910600359659 /* Module */,
 				DC167E6624DA908C00359659 /* AppDelegate.h */,
@@ -134,58 +134,67 @@
 			path = ReferenceUtitlity;
 			sourceTree = "<group>";
 		};
-		DC167EED24DA9DEB00359659 /* GaoDisplayManager */ = {
-			isa = PBXGroup;
-			children = (
-				DC167EEE24DA9DEB00359659 /* GaoDisplayManager_Master */,
-			);
-			path = GaoDisplayManager;
-			sourceTree = "<group>";
-		};
-		DC167EEE24DA9DEB00359659 /* GaoDisplayManager_Master */ = {
-			isa = PBXGroup;
-			children = (
-				DC167EEF24DA9DEB00359659 /* GaoDisplayManager */,
-				DC167EF224DA9DEB00359659 /* ToastView */,
-			);
-			path = GaoDisplayManager_Master;
-			sourceTree = "<group>";
-		};
-		DC167EEF24DA9DEB00359659 /* GaoDisplayManager */ = {
-			isa = PBXGroup;
-			children = (
-				DC8EDE9B251C277500D385C5 /* GaoDisplayStyle */,
-				DC167EF124DA9DEB00359659 /* GaoDisplayManager.h */,
-				DC167EF024DA9DEB00359659 /* GaoDisplayManager.m */,
-			);
-			path = GaoDisplayManager;
-			sourceTree = "<group>";
-		};
-		DC167EF224DA9DEB00359659 /* ToastView */ = {
-			isa = PBXGroup;
-			children = (
-				DC167EF324DA9DEB00359659 /* GaoToastViewIl */,
-			);
-			path = ToastView;
-			sourceTree = "<group>";
-		};
-		DC167EF324DA9DEB00359659 /* GaoToastViewIl */ = {
-			isa = PBXGroup;
-			children = (
-				DC167EF424DA9DEB00359659 /* GaoToastViewIl.h */,
-				DC167EF524DA9DEB00359659 /* GaoToastViewIl.xib */,
-				DC167EF624DA9DEB00359659 /* GaoToastViewIl.m */,
-				DC167EF724DA9DEB00359659 /* warn.png */,
-			);
-			path = GaoToastViewIl;
-			sourceTree = "<group>";
-		};
 		DC826763251D902800BB1008 /* Info */ = {
 			isa = PBXGroup;
 			children = (
 				DC826764251D902800BB1008 /* Versions.md */,
 			);
 			path = Info;
+			sourceTree = "<group>";
+		};
+		DC826767251D935F00BB1008 /* GaoDisplayManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC826768251D935F00BB1008 /* GaoDisplayManager_Master */,
+			);
+			path = GaoDisplayManager;
+			sourceTree = "<group>";
+		};
+		DC826768251D935F00BB1008 /* GaoDisplayManager_Master */ = {
+			isa = PBXGroup;
+			children = (
+				DC826769251D935F00BB1008 /* GaoDisplayManager */,
+				DC82676F251D935F00BB1008 /* ToastView */,
+			);
+			path = GaoDisplayManager_Master;
+			sourceTree = "<group>";
+		};
+		DC826769251D935F00BB1008 /* GaoDisplayManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC82676A251D935F00BB1008 /* GaoDisplayStyle */,
+				DC82676D251D935F00BB1008 /* GaoDisplayManager.m */,
+				DC82676E251D935F00BB1008 /* GaoDisplayManager.h */,
+			);
+			path = GaoDisplayManager;
+			sourceTree = "<group>";
+		};
+		DC82676A251D935F00BB1008 /* GaoDisplayStyle */ = {
+			isa = PBXGroup;
+			children = (
+				DC82676B251D935F00BB1008 /* GaoDisplayStyle.m */,
+				DC82676C251D935F00BB1008 /* GaoDisplayStyle.h */,
+			);
+			path = GaoDisplayStyle;
+			sourceTree = "<group>";
+		};
+		DC82676F251D935F00BB1008 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				DC826770251D935F00BB1008 /* GaoToastViewIl */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		DC826770251D935F00BB1008 /* GaoToastViewIl */ = {
+			isa = PBXGroup;
+			children = (
+				DC826771251D935F00BB1008 /* GaoToastViewIl.h */,
+				DC826772251D935F00BB1008 /* GaoToastViewIl.xib */,
+				DC826773251D935F00BB1008 /* GaoToastViewIl.m */,
+				DC826774251D935F00BB1008 /* warn.png */,
+			);
+			path = GaoToastViewIl;
 			sourceTree = "<group>";
 		};
 		DC8EDE93251C273000D385C5 /* GaoTvcLl_Master */ = {
@@ -198,15 +207,6 @@
 			name = GaoTvcLl_Master;
 			path = /Users/gikkiares/Desktop/0201_MyProject/06_MyLibProject/01_iOS/01_Prompt/01_GaoDisplayManager/03_Make/GaoDisplayManagerDemo/GaoDisplayManagerDemo/Utility/../../../../../../06_CommonUITableViewCell/UITableViewCell/GaoTvcLl_Master;
 			sourceTree = "<absolute>";
-		};
-		DC8EDE9B251C277500D385C5 /* GaoDisplayStyle */ = {
-			isa = PBXGroup;
-			children = (
-				DC8EDE9D251C277500D385C5 /* GaoDisplayStyle.h */,
-				DC8EDE9C251C277500D385C5 /* GaoDisplayStyle.m */,
-			);
-			path = GaoDisplayStyle;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -265,12 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC167EFB24DA9DEB00359659 /* warn.png in Resources */,
 				DC8EDE98251C273000D385C5 /* GaoTvcLl.xib in Resources */,
+				DC826777251D935F00BB1008 /* GaoToastViewIl.xib in Resources */,
 				DC167E7624DA908C00359659 /* LaunchScreen.storyboard in Resources */,
 				DC167E7324DA908C00359659 /* Assets.xcassets in Resources */,
 				DC167E8524DA915500359659 /* HomeViewController.xib in Resources */,
-				DC167EF924DA9DEB00359659 /* GaoToastViewIl.xib in Resources */,
+				DC826779251D935F00BB1008 /* warn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8EDE97251C273000D385C5 /* GaoTvcLl.m in Sources */,
-				DC167EFA24DA9DEB00359659 /* GaoToastViewIl.m in Sources */,
 				DC167E6824DA908C00359659 /* AppDelegate.m in Sources */,
 				DC167E7924DA908C00359659 /* main.m in Sources */,
 				DC167E6B24DA908C00359659 /* SceneDelegate.m in Sources */,
-				DC167EF824DA9DEB00359659 /* GaoDisplayManager.m in Sources */,
-				DC8EDE9E251C277500D385C5 /* GaoDisplayStyle.m in Sources */,
+				DC826775251D935F00BB1008 /* GaoDisplayStyle.m in Sources */,
+				DC826778251D935F00BB1008 /* GaoToastViewIl.m in Sources */,
+				DC826776251D935F00BB1008 /* GaoDisplayManager.m in Sources */,
 				DC167E8424DA915500359659 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -441,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
