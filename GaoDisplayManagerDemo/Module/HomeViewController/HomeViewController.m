@@ -39,7 +39,9 @@ UITableViewDataSource
 	switch(indexPath.row) {
 		case 0: {
 			GaoToastViewIl * toastView = [GaoToastViewIl newInstanceWithMessage:@"Hello,World!!!"];
-//			[toastView displayInView:self.view withMask:YES isMaskCancellable:YES position:GaDisplayPositionRight displayAnimationType:GaDisplayAnimationTypeMoveFromRight undisplayAnimationType:GaUndisplayAnimationTypeMoveToRight cancelBlock:nil displayInterval:3];
+			GaoDisplayStyle * style = [GaoDisplayStyle defaulStyle];
+			[toastView displayInView:self.view withDisplayStyle:style completionHandler:nil];
+			break;
 		}
 		case 1:{
 			GaoToastViewIl * toastView = [GaoToastViewIl newInstanceWithMessage:@"Hello,World!!!"];

@@ -152,7 +152,7 @@ static int kDisplayStyle;
 - (void)undisplay{
 		//屏幕尺寸
 	CGFloat f_screenWidth = [UIScreen mainScreen].bounds.size.width;
-	CGFloat f_screenHeight = [UIScreen mainScreen].bounds.size.height;
+//	CGFloat f_screenHeight = [UIScreen mainScreen].bounds.size.height;
 	
 	GaoDisplayStyle * style = objc_getAssociatedObject(self, &kDisplayStyle);
 		//MARK: 1 计算结束的位置--finishFrame

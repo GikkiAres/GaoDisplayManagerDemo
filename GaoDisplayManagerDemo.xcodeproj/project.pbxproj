@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC167E6824DA908C00359659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167E6724DA908C00359659 /* AppDelegate.m */; };
-		DC167E6B24DA908C00359659 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167E6A24DA908C00359659 /* SceneDelegate.m */; };
 		DC167E7324DA908C00359659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC167E7224DA908C00359659 /* Assets.xcassets */; };
 		DC167E7624DA908C00359659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC167E7424DA908C00359659 /* LaunchScreen.storyboard */; };
 		DC167E7924DA908C00359659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167E7824DA908C00359659 /* main.m */; };
@@ -27,8 +26,6 @@
 		DC167E6324DA908C00359659 /* GaoDisplayManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDisplayManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC167E6624DA908C00359659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC167E6724DA908C00359659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC167E6924DA908C00359659 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DC167E6A24DA908C00359659 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DC167E7224DA908C00359659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC167E7524DA908C00359659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC167E7724DA908C00359659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,8 +87,6 @@
 				DC167E7F24DA910600359659 /* Module */,
 				DC167E6624DA908C00359659 /* AppDelegate.h */,
 				DC167E6724DA908C00359659 /* AppDelegate.m */,
-				DC167E6924DA908C00359659 /* SceneDelegate.h */,
-				DC167E6A24DA908C00359659 /* SceneDelegate.m */,
 				DC167E7224DA908C00359659 /* Assets.xcassets */,
 				DC167E7424DA908C00359659 /* LaunchScreen.storyboard */,
 				DC167E7724DA908C00359659 /* Info.plist */,
@@ -284,7 +279,6 @@
 				DC8EDE97251C273000D385C5 /* GaoTvcLl.m in Sources */,
 				DC167E6824DA908C00359659 /* AppDelegate.m in Sources */,
 				DC167E7924DA908C00359659 /* main.m in Sources */,
-				DC167E6B24DA908C00359659 /* SceneDelegate.m in Sources */,
 				DC826775251D935F00BB1008 /* GaoDisplayStyle.m in Sources */,
 				DC826778251D935F00BB1008 /* GaoToastViewIl.m in Sources */,
 				DC826776251D935F00BB1008 /* GaoDisplayManager.m in Sources */,
@@ -421,15 +415,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = vgemv.GaoDisplayManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,15 +436,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = vgemv.GaoDisplayManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
