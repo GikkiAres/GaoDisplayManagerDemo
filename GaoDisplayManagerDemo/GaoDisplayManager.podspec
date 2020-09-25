@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GaoDisplayManager"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.1(1)"
   spec.summary      = "GaoDisplayManager is a convinent tool to display a new view at any root view with animation and common additon operates."
 
   # This description is used to generate tags and improve search results.
@@ -40,8 +40,7 @@ Pod::Spec.new do |spec|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
-  spec.license      = "MIT"
+spec.license      = { :type => "MIT", :file => "LICENSE-MIT" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -94,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files = "GaoDisplayManage/GaoDisplayManager_Master/**/*.{h,m}"
+  spec.source_files = "GaoDisplayManager","GaoDisplayManager/GaoDisplayManager_Master/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -109,8 +108,8 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resource = "GaoDisplayManage/GaoDisplayManager_Master/ToastView/GaoToastViewIl/GaoToastViewIl.xib"
-  spec.resource = "GaoDisplayManage/GaoDisplayManager_Master/ToastView/GaoToastViewIl/warn.png"
+  spec.resource = "GaoDisplayManager/GaoDisplayManager_Master/ToastView/GaoToastViewIl/GaoToastViewIl.xib"
+  spec.resource = "GaoDisplayManager/GaoDisplayManager_Master/ToastView/GaoToastViewIl/warn.png"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
