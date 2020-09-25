@@ -18,6 +18,8 @@
 		DC167EF924DA9DEB00359659 /* GaoToastViewIl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC167EF524DA9DEB00359659 /* GaoToastViewIl.xib */; };
 		DC167EFA24DA9DEB00359659 /* GaoToastViewIl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC167EF624DA9DEB00359659 /* GaoToastViewIl.m */; };
 		DC167EFB24DA9DEB00359659 /* warn.png in Resources */ = {isa = PBXBuildFile; fileRef = DC167EF724DA9DEB00359659 /* warn.png */; };
+		DC82675E251D883E00BB1008 /* Versions.md in Resources */ = {isa = PBXBuildFile; fileRef = DC82675C251D883E00BB1008 /* Versions.md */; };
+		DC82675F251D883E00BB1008 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = DC82675D251D883E00BB1008 /* ReadMe.md */; };
 		DC8EDE97251C273000D385C5 /* GaoTvcLl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EDE94251C273000D385C5 /* GaoTvcLl.m */; };
 		DC8EDE98251C273000D385C5 /* GaoTvcLl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8EDE95251C273000D385C5 /* GaoTvcLl.xib */; };
 		DC8EDE9E251C277500D385C5 /* GaoDisplayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EDE9C251C277500D385C5 /* GaoDisplayStyle.m */; };
@@ -42,6 +44,8 @@
 		DC167EF524DA9DEB00359659 /* GaoToastViewIl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoToastViewIl.xib; sourceTree = "<group>"; };
 		DC167EF624DA9DEB00359659 /* GaoToastViewIl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoToastViewIl.m; sourceTree = "<group>"; };
 		DC167EF724DA9DEB00359659 /* warn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warn.png; sourceTree = "<group>"; };
+		DC82675C251D883E00BB1008 /* Versions.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Versions.md; sourceTree = "<group>"; };
+		DC82675D251D883E00BB1008 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		DC8EDE94251C273000D385C5 /* GaoTvcLl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaoTvcLl.m; sourceTree = "<group>"; };
 		DC8EDE95251C273000D385C5 /* GaoTvcLl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaoTvcLl.xib; sourceTree = "<group>"; };
 		DC8EDE96251C273000D385C5 /* GaoTvcLl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaoTvcLl.h; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 		DC167E5A24DA908C00359659 = {
 			isa = PBXGroup;
 			children = (
+				DC82675B251D883E00BB1008 /* ReadMe */,
 				DC167E6524DA908C00359659 /* GaoDisplayManagerDemo */,
 				DC167E6424DA908C00359659 /* Products */,
 			);
@@ -174,6 +179,15 @@
 			path = GaoToastViewIl;
 			sourceTree = "<group>";
 		};
+		DC82675B251D883E00BB1008 /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				DC82675C251D883E00BB1008 /* Versions.md */,
+				DC82675D251D883E00BB1008 /* ReadMe.md */,
+			);
+			path = ReadMe;
+			sourceTree = "<group>";
+		};
 		DC8EDE93251C273000D385C5 /* GaoTvcLl_Master */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,7 +269,9 @@
 				DC8EDE98251C273000D385C5 /* GaoTvcLl.xib in Resources */,
 				DC167E7624DA908C00359659 /* LaunchScreen.storyboard in Resources */,
 				DC167E7324DA908C00359659 /* Assets.xcassets in Resources */,
+				DC82675E251D883E00BB1008 /* Versions.md in Resources */,
 				DC167E8524DA915500359659 /* HomeViewController.xib in Resources */,
+				DC82675F251D883E00BB1008 /* ReadMe.md in Resources */,
 				DC167EF924DA9DEB00359659 /* GaoToastViewIl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,12 +423,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = vgemv.GaoDisplayManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,12 +443,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 726NDCHRGU;
 				INFOPLIST_FILE = GaoDisplayManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = vgemv.GaoDisplayManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
